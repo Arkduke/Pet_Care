@@ -5,8 +5,12 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://struts.apache.org/tags-bean" prefix="bean" %>
+<%@ taglib uri="http://struts.apache.org/tags-html" prefix="html" %>
+<%@ taglib uri="http://struts.apache.org/tags-logic" prefix="logic" %>
+
 <!DOCTYPE html>
-<html>
+<html:html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
@@ -30,6 +34,7 @@
                                     <input type="email" name="email" placeholder="Enter Your Email" />
                                     <input type="password" name="pswd1" placeholder="Enter a Password" />
                                     <input type="password" name="pswd2" placeholder="Confirm Password" />
+                                    <input type="number" name="phno" placeholder="Enter Your Mobile No." />
                                     <input type="text" name="pet" placeholder="Enter Your Pet" />
                                     <button type="Submit" class="btn pink darken-2">SUBMIT</button>
                                 </form>
@@ -40,4 +45,4 @@
             </div>
         </div>
     </body>
-</html>
+</html:html>
