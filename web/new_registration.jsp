@@ -28,7 +28,7 @@
                         <div class="card-content">
                             <h4 style="margin-top: 10px" class="center-align">Hey there..!!!<br> ..Register Yourself..</h4>
                             <div class="form center-align">
-                                <form action="" method="post">
+                                <html:form action="/new_registration">
                                     <input type="text" name="fname" placeholder="Enter First Name" />
                                     <input type="text" name="lname" placeholder="Enter Last Name" />
                                     <input type="email" name="email" placeholder="Enter Your Email" />
@@ -37,7 +37,7 @@
                                     <input type="number" name="phno" placeholder="Enter Your Mobile No." />
                                     <input type="text" name="pet" placeholder="Enter Your Pet" />
                                     <button type="Submit" class="btn pink darken-2">SUBMIT</button>
-                                </form>
+                                </html:form>
                             </div>
                         </div>
                     </div>
