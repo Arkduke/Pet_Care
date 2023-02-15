@@ -21,8 +21,8 @@
 
     <action-mappings>
         <action input="/Welcome" name="RegistrationActionForm" path="/new_registration" scope="request" type="com.myapp.struts.RegistrationAction" validate="false">
-            <forward name="Success" path="/WEB-INF/Success.jsp"/>
-            <forward name="Failure" path="/WEB-INF/Failure.jsp"/>
+            <forward name="success" path="/WEB-INF/Success.jsp"/>
+            <forward name="failure" path="/WEB-INF/Failure.jsp"/>
         </action>
         <action path="/Welcome" forward="/welcomeStruts.jsp"/>
     </action-mappings>
