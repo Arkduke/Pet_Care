@@ -32,9 +32,9 @@ public class RegistrationAction extends org.apache.struts.action.Action
         {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             //registering type4 driver of oracle
-            Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","1234567890");
+            Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","system");
             Statement stmt = con.createStatement();
-            String q2 = "insert into userpet values('"+fname+"','"+lname+"','"+email+"','"+pswd1+"','"+pswd2+"','"+phno+"','"+pet+"',"+null+","+null+")";
+            String q2 = "insert into userpet values('"+fname+"','"+lname+"','"+email+"','"+pswd1+"','"+pswd2+"','"+phno+"','"+pet+")";
             ResultSet rs=stmt.executeQuery(q2);
             if (rs.next())
             {
