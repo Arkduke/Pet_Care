@@ -1,0 +1,13 @@
+SMAP
+login_005fsignup_jsp.java
+JSP
+*S JSP
+*F
++ 0 login_signup.jsp
+login_signup.jsp
+*L
+5,11:54
+15:85,7
+16,82:92
+97:66
+*E
